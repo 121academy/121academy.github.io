@@ -130,18 +130,18 @@ layout: default
 </div>
 <!-- End About -->
 
-<!-- Start Treatments -->
-<div id="treatments" class="treatments">
+<!-- Start courses -->
+<div id="courses" class="courses">
     <div class="container-fluid">
         <h2 class="section-title">Courses</h2>
 
         <div class="row">
-            {% for treatment in site.data.treatments %}
+            {% for course in site.data.courses %}
                 <div class="col-sm-6 col-md-4">
                     <div class="icon-box">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description }}</p>
+                        <svg class="icon {{ course.icon }}"><use xlink:href="#{{ course.icon }}"></use></svg>
+                        <h4>{{ course.title }}</h4>
+                        <p>{{ course.description }}</p>
                     </div>
                 </div>
             {% endfor %}
