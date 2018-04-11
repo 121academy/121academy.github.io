@@ -3,7 +3,7 @@ title: 121.academy | Grab Teachers for Career Success
 description: "Online one-to-one learning platform"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "121.academy" # the name of your domain
-logo_url: svg/121.academy.logo.svg # svg/min/logo.svg
+logo_url: svg/logo_rect.svg # svg/min/logo.svg
 
 # Hero
 hero: 
@@ -34,7 +34,7 @@ testimonials:
 map:
     zoom: 17
     address: Von schroeders 273, Viña del mar, Chile
-    address_details: svg/min/logo.svg
+    address_details: svg/121.academy.logo.svg # svg/min/logo.svg
 
 # Social settings
 facebook: https://www.facebook.com/121academy-158804261468795/
