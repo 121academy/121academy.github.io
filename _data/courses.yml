@@ -1,23 +1,23 @@
 - icon: icon-comments
   title: Japanese Language
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: หลักสูตรภาษาที่สอนโดยเจ้าของภาษา แบ่งครั้งละ 15 นาที เพื่อไม่ให้นานเกินไป สามารถเรียนได้บ่อยเท่าที่ต้องการ เพื่อความก้าวหน้าที่รวดเร็ว
 
 - icon: icon-diamond
   title: Coaching
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: แก้ไขปัญหาและพัฒนาศักยภาพของตนเอง และเรียนรู้แนวทางที่จะนำทีมไปสู่ความสำเร็จด้วยตัวคุณเอง จากการโค้ชครั้งละ 1 ชั่วโมง ทุก 2 อาทิตย์ 
 
 - icon: icon-group
-  title: Personal Development
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+  title: Personal Career Development
+  description: สร้างความก้าวหน้าในสายอาชีพด้วยการวางแผน และบริหารจัดการการเรียนรู้
 
 - icon: icon-star
   title: Personal Finance
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: วางแผนการเงินส่วนบุคคล เพื่อครอบครัวและอนาคตหลังเกษียณ
 
 - icon: icon-globe
   title: Software and Tools
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: ฝึกการใช้ซอล์ฟแวร์และเครื่องมือต่างๆ โดยปรับเนื้อหาตามเป้าหมายของผู้เรียนโดยผู้เชี่ยวชาญ
 
 - icon: icon-trophy
   title: Programming
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam minima, itaque molestiae ut ratione unde?
+  description: เรียนการเขียนโปรแกรมในภาษาต่างๆ โดยเน้นการทำจริง และให้คำแนะนำอย่างใกล้ชิดโดยโปรแกรมเมอร์อาชีพ
