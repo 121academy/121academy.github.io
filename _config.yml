@@ -12,7 +12,7 @@ hero:
     hero_description: Online one-to-one learning platform.
 
 # Contact form
-api_token: # Enter API token here
+api_token: 36706d4221097e451b4848acb272e89f # Enter API token here
 
 # Contact info
 contact:
@@ -33,11 +33,11 @@ testimonials:
 # Map
 map:
     zoom: 17
-    address: Von schroeders 273, Viña del mar, Chile
+    address: Sukhumwit
     address_details: svg/121.academy.logo.svg # svg/min/logo.svg
 
 # Social settings
-facebook: https://www.facebook.com/121academy-158804261468795/
+facebook: https://fb.me/121.academy
 twitter: http://twitter.com
 instagram: http://instagram.com
 youtube: http://youtube.com
@@ -45,7 +45,7 @@ skype: skype:obaez_design?userinfo
 feed: yes
 
 # Footer
-copyright: © 2015 DentistSmile - All rights reserved
+copyright: © 2018 121.academy - All rights reserved
 
 # Build settings
 markdown: kramdown
