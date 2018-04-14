@@ -1,34 +1,19 @@
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Shibamori
+  image: JT.1.SHIBAMORI.JPG
+  email: xxxx@121.academy
+  phone: XXXX XX XX
 
-- name: Troy Barnes 
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Tomohiro 
+  image: JT.2.TOMOHIRO.JPG
+  email: xxxx@121.academy
+  phone: XXXX XX XX
 
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Kato
+  image: JT.3.KATO.JPG
+  email: xxxx@121.academy
+  phone: XXXX XX XX
 
-- name: Jeff Winger
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Britta Perry
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Troy Barnes
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
-
-- name: Annie
-  image: team.jpg
-  email: email@gmail.com
-  phone: 9659 43 21
+- name: Kajiwara
+  image: JT.4.KAJIWARA.JPG
+  email: xxxx@121.academy
+  phone: XXXX XX XX
