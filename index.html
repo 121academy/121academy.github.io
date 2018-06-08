@@ -38,6 +38,51 @@ layout: default
 </div>
 <!-- End Hero -->
 
+
+<!-- Start courses -->
+<div id="courses" class="courses">
+    <div class="container-fluid">
+        <h2 class="section-title">Courses</h2>
+
+        <div class="row">
+            {% for course in site.data.courses %}
+                <div class="col-sm-6 col-md-4">
+                    <div class="icon-box">
+                        <svg class="icon {{ course.icon }}"><use xlink:href="#{{ course.icon }}"></use></svg>
+                        <h4>{{ course.title }}</h4>
+                        <p>{{ course.description }}</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<!-- End Treatments -->
+
+<!-- Start Our team -->
+<div id="team" class="team"> 
+    <h2 class="section-title">Our Coaches</h2> 
+    <div id="team-carousel">
+    {% for member in site.data.team %}
+        <div class="expandable-box">
+            <div class="expandable-box-top">
+                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
+                <h4>{{ member.name }}</h4>
+            </div>
+            <!--
+            <div class="expandable-box-bottom">
+                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
+                </a>
+                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+                </a>
+            </div>
+            -->
+        </div>
+    {% endfor %}
+    </div>
+</div>
+<!-- End Our team -->
+
 <!-- Start 3 columns -->
 <div class="three-shade-col">
     <div class="col-sm-4">
@@ -130,50 +175,6 @@ layout: default
 </div>
 <!-- End About -->
 
-<!-- Start courses -->
-<div id="courses" class="courses">
-    <div class="container-fluid">
-        <h2 class="section-title">Courses</h2>
-
-        <div class="row">
-            {% for course in site.data.courses %}
-                <div class="col-sm-6 col-md-4">
-                    <div class="icon-box">
-                        <svg class="icon {{ course.icon }}"><use xlink:href="#{{ course.icon }}"></use></svg>
-                        <h4>{{ course.title }}</h4>
-                        <p>{{ course.description }}</p>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
-<!-- End Treatments -->
-
-<!-- Start Our team -->
-<div id="team" class="team"> 
-    <h2 class="section-title">Our Team</h2> 
-    <div id="team-carousel">
-    {% for member in site.data.team %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/{{ member.image }}" alt="{{ member.name }}">
-                <h4>{{ member.name }}</h4>
-            </div>
-            <!--
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.phone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.phone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
-            </div>
-            -->
-        </div>
-    {% endfor %}
-    </div>
-</div>
-<!-- End Our team -->
-
 <!-- Start Testimonials -->
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
@@ -220,5 +221,5 @@ layout: default
 <!-- End Gallery -->
 
 <!-- Start Map -->
-<div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div>
+<!-- <div id="location" class="map" data-zoom="{{ site.map.zoom }}" data-address="{{ site.map.address }}" data-address-details="<img src='{{ site.map.address_details }}'>"></div> -->
 <!-- End Map -->
